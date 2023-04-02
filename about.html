@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-link">
+                <i class="fa fa-times"></i>
+                <ul>
+                    <li><a href="Edu.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"></i>
+        </nav>
+       <h1>About Us</h1>
+    </section>
+
+
+    <!-- about us content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae provident modi nihil voluptate, hic eius quae et cumque cupiditate ad distinctio maxime quasi laudantium iste. Facere ipsam libero enim suscipit, possimus excepturi beatae in nemo!</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+  <!-- Javascript for toggle menu -->
+  <script>
+    var navlinks =  document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px"
+    }
+</script>
+
+
+
+
+</body>
+</html>

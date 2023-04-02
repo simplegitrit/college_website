@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-link">
+                <i class="fa fa-times" onclick="showMenu()"></i>
+                <ul>
+                    <li><a href="Edu.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Certificates & Online Program For 2021</h1>
+    </section>
+<!-- blog page content -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" alt="">
+            <h2>Our Certificates & Online Program For 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ut suscipit illum, magnam eum quisquam placeat molestias ducimus mollitia minus quas tempora cupiditate quod quis architecto facilis repudiandae soluta cum!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error omnis id sint, fuga, tempore doloribus deleniti eveniet velit quasi, odio voluptatibus et sunt. Minima cum placeat quos ipsum cupiditate? Eius.
+            </p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor asperiores distinctio nulla corrupti molestias architecto aliquam, vitae similique obcaecati quaerat neque minus ipsum adipisci maxime quam? Pariatur ducimus repellat dignissimos, dolorem repudiandae facere minus neque ipsum officia, fugiat obcaecati? Dignissimos obcaecati cumque nesciunt, quas incidunt facere aliquam nisi adipisci atque.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit perspiciatis vitae ratione dolorum deleniti, voluptatum a incidunt. Facere laudantium et ad culpa eum itaque eveniet? Ducimus facere, soluta nostrum consequatur delectus molestias quis possimus dolores minima quas tempore enim in deleniti animi? Ipsa inventore nisi asperiores recusandae ad iure optio exercitationem, impedit aut sequi.</p>
+
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn  red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>19</span>
+            </div>
+            <div>
+                <span>Blockchain</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Deep Learning</span>
+                <span>15</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+
+  <!-- Javascript for toggle menu -->
+  <script>
+    var navlinks =  document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px"
+    }
+</script>
+
+
+
+
+</body>
+</html>
